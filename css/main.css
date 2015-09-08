@@ -1,0 +1,80 @@
+/*
+ * Initial base styling for the entire app
+ */
+/*
+ * Website-wide variables
+ */
+/*
+ * Make this a fullscreen app
+ */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+/*
+ * Component styling
+ */
+#dock {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 16rem;
+  padding: 2rem;
+  background-color: #ddd;
+  border-top: #bbb solid 1px; }
+
+/**
+ * Horizontal list component
+ */
+.horizontal-list {
+  list-style: none;
+  margin: 0px;
+  width: 100%; }
+  .horizontal-list > li {
+    display: inline-block; }
+
+.main-image-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 16rem;
+  background-color: #ddd;
+  text-align: center;
+  position: relative;
+  z-index: 0; }
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/happy_dog.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/**
+ * Styling for stickers
+ */
+.sticker {
+  border-radius: 5px;
+  width: 12rem;
+  height: 12rem; }
+
+.sticker-holder {
+  position: relative;
+  z-index: 0; }
+
+.sticker-in-dock {
+  margin-right: 20px; }
+
+.sticker-draggable {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1; }
+
+.sticker-remove {
+  opacity: 0.5; }
+
+.sticker-is-dragging {
+  z-index: 2; }

@@ -1,0 +1,14 @@
+/*
+ * Website-wide variables
+ */
+$sticker-dock-size: 16rem;
+
+/*
+ * Make this a fullscreen app
+ */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}

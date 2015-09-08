@@ -1,0 +1,36 @@
+/**
+ * Styling for stickers
+ */
+.sticker {
+  border-radius: 5px;
+  width: 12rem;
+  height: 12rem;
+}
+
+.sticker-holder {
+  // li holding sticker img's
+  position: relative;
+  z-index: 0;
+}
+
+.sticker-in-dock {
+  margin-right: 20px;
+}
+
+.sticker-draggable {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  z-index: 1;
+}
+
+.sticker-remove {
+  opacity: 0.5;
+}
+
+.sticker-is-dragging {
+  // box-shadow: 5px 5px 8px 0px #444;
+
+  z-index: 2;
+}

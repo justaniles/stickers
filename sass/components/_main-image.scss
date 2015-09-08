@@ -1,0 +1,22 @@
+.main-image-container {
+  width: 100%;
+  height:100%;
+  padding-bottom: $sticker-dock-size;
+
+  background-color: #ddd;
+  text-align: center;
+
+  position: relative;
+  z-index: 0;
+
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../img/happy_dog.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

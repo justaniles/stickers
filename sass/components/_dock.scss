@@ -1,0 +1,10 @@
+#dock {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: $sticker-dock-size;
+  padding: 2rem;
+
+  background-color: #ddd;
+  border-top: #bbb solid 1px;
+}

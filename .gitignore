@@ -1,0 +1,5 @@
+.DS_Store
+config.codekit
+.sass-cache
+*.swp
+image-source

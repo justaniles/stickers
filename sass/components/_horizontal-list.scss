@@ -1,0 +1,13 @@
+/**
+ * Horizontal list component
+ */
+.horizontal-list {
+  list-style: none;
+  margin: 0px;
+
+  width: 100%;
+
+  & > li {
+    display: inline-block;
+  }
+}
